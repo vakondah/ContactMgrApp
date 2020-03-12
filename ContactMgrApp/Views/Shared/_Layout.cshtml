@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/CSS/site.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <!--container makes page responsive-->
+        <header class="bg-dark text-white text-center p-4 mb-2">
+            <h1>Contact Manager</h1>
+        </header>
+        <main role="main">
+            @RenderBody()
+        </main>
+
+    </div>
+</body>
+</html>
